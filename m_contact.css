@@ -1,0 +1,20 @@
+@font-face{
+    font-family: 'raleway';
+    src: url(/myportfolio/font/Raleway-Light.tff)
+}
+
+@font-face{
+    font-family: 'quicksand';
+    src: url(/font/quicksand/Quicksand-Medium.ttf)
+}
+
+
+@media only screen and (min-width: 600px){
+.contact .footer {
+    background:red;
+    height: 20vw;
+    text-align: center;
+    position: fixed;
+}
+
+}

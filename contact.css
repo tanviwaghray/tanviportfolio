@@ -1,0 +1,26 @@
+@font-face{
+    font-family: raleway;
+    src: url(/myportfolio/font/Raleway-Light.tff)
+}
+
+@font-face{
+    font-family: quicksand;
+    src: url(/font/quicksand/Quicksand-Medium.ttf)
+}
+
+.contactf{
+    height: 5vw;
+    width: 100%;
+    background: white;
+    bottom: 0;
+    position: fixed;
+}
+.footer{
+    background: white;
+    height: 50%;
+    text-align: center;
+    width: 100%;
+}
+
+
+

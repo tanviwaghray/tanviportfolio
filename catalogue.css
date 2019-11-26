@@ -1,0 +1,153 @@
+@font-face{
+    font-family: raleway;
+    src: url(/myportfolio/font/Raleway-Light.tff)
+}
+
+@font-face{
+    font-family: quicksand;
+    src: url(/font/quicksand/Quicksand-Medium.ttf)
+}
+
+.div2{
+    background: white;
+    height: 45vw;
+    width:100%;
+}
+
+p{
+  
+    font-size: 1vw;
+    font-family: raleway;
+  
+}
+.column {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .div2{ 
+    display: grid;
+    grid: auto/ 33.3% 33.3% 33.3%;
+    margin: auto;
+    text-align: center;
+    }
+
+  .item1 img {
+    margin-top: 12px;
+    width:90%;
+    height: 20vw;
+    margin: auto;
+  }
+
+  .item1 img{
+    opacity: 1;
+    display: block;
+    width: 90%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .imagecontainer1:hover .item1 {
+    opacity: 0.3;
+  }
+  
+  .imagecontainer1:hover .middle {
+    opacity: 1;
+  }
+  
+
+  .item2 img {
+    margin-top: 30%;
+    width:90%;
+    height: 20vw;
+  }
+  .item2 img{
+    opacity: 1;
+    display: block;
+    width: 90%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .imagecontainer2:hover .item1 {
+    opacity: 0.3;
+  }
+  
+  .imagecontainer2:hover .middle {
+    opacity: 1;
+  }
+  
+ 
+
+
+  .item3 img {
+    margin-top: 30%;
+    width:90%;
+    height: 20vw;
+  }
+
+  .item3 img{
+    opacity: 1;
+    display: block;
+    width: 90%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .imagecontainer3:hover .item1 {
+    opacity: 0.3;
+  }
+  
+  .imagecontainer3:hover .middle {
+    opacity: 1;
+  }
+  
+
+
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+    

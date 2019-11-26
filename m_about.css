@@ -1,0 +1,30 @@
+@media only screen and (max-width: 600px){
+
+    
+    .div3{
+        background:rgb(255, 226, 97);
+        height: 45vw;
+        width:100%;
+    }
+    
+    .faceimg{
+        height: 25vw;
+        width: 28vw;
+        text-align: center;
+        margin-left: 30%;
+        margin-top: 20px;
+    }
+    
+    .info{
+    text-align: center;
+    float: right;
+    color: white;
+    margin-right: 35%;
+    margin-top: 40px;
+    font-size: 1.2vw;
+    font-family: 'raleway';
+    }
+    
+    
+    
+}
